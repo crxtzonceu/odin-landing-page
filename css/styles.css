@@ -113,6 +113,7 @@ main img {
   height: 100%;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .info-container .info-items {
@@ -125,4 +126,30 @@ main img {
   width: 200px;
   height: 150px;
   border: 1px solid black;
+}
+
+/* Quote Section */
+.quote {
+  height: 350px;
+  background: #E5E7EB;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 36px;
+  color: #1F2937;
+  height: 100%;
+}
+
+.quote-container span {
+  align-self: end;
+  font-weight: bold;
+  font-size: 19px;
+  font-style: normal;
 }
