@@ -100,6 +100,7 @@ main img {
 .information {
   height: 330px;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .information h1 {
@@ -113,7 +114,6 @@ main img {
   height: 100%;
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .info-container .info-items {
@@ -125,8 +125,8 @@ main img {
 .information img {
   width: 200px;
   height: 150px;
-  border: 1px solid black;
 }
+
 
 /* Quote Section */
 .quote {
@@ -152,4 +152,46 @@ main img {
   font-weight: bold;
   font-size: 19px;
   font-style: normal;
+}
+
+
+/* Contact */
+
+.contact {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.contact .blue {
+  background-color: #3c7ee8;
+  width: 100%;
+}
+.contact-container {
+  width: 70%;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact button {
+  padding: 6px 20px;
+  color: white;
+  border: 2px solid white;
+  background-color: #3882F6;
+  border-radius: 8px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #1F2937;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
